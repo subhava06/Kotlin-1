@@ -35,5 +35,7 @@ fun main()
     var minLongValue: Long = Long.MIN_VALUE
     println("Maximum and minimum vlaue of Long is : $maxLongValue and $minLongValue")
 
-
+// float and double variables
+    val myNumber = 2.5f // it is a float
+    val myNumber1 = 2.5555 // it is a double by default
 }
