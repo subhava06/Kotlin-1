@@ -41,4 +41,11 @@ fun main()
 
     println("myNumber = $myNumber and myNumber1 = $myNumber1 ")
 
+// char and boolean datatypes
+    val mycharValue  = 'D'
+    println("$mycharValue")
+    println(mycharValue)
+
+    val myBooleanValue : Boolean = true
+    println("mycharValue = $mycharValue and myBooleanValue = $myBooleanValue")
 }
