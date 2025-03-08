@@ -8,8 +8,8 @@ import androidx.core.view.WindowInsetsCompat
 import kotlinx.coroutines.yield
 
 
-fun main()
-{{}
+fun main() {
+    {}
     //declaring a variable
     var userName: String = "Subhava Ojha"
     userName = "Alex"
@@ -43,11 +43,11 @@ fun main()
     println("myNumber = $myNumber and myNumber1 = $myNumber1 ")
 
 // char and boolean datatypes
-    val mycharValue  = 'D'
+    val mycharValue = 'D'
     println("$mycharValue")
     println(mycharValue)
 
-    val myBooleanValue : Boolean = true
+    val myBooleanValue: Boolean = true
     println("mycharValue = $mycharValue and myBooleanValue = $myBooleanValue")
 
     // Operators
@@ -55,32 +55,64 @@ fun main()
     val y = 3.0 // when u don't want variable to be mutable
     val result = x + y
     println(result)
-    println("x + y = ${x+y}") // {} is placeholder and we put expressions inside it
-    println("x - y = ${x-y}") // {} is placeholder and we put expressions inside it
-    println("x * y = ${x*y}") // {} is placeholder and we put expressions inside it
-    println("x / y = ${x/y}") // {} is placeholder and we put expressions inside it
-    println("x % y = ${x%y}") // {} is placeholder and we put expressions inside it
+    println("x + y = ${x + y}") // {} is placeholder and we put expressions inside it
+    println("x - y = ${x - y}") // {} is placeholder and we put expressions inside it
+    println("x * y = ${x * y}") // {} is placeholder and we put expressions inside it
+    println("x / y = ${x / y}") // {} is placeholder and we put expressions inside it
+    println("x % y = ${x % y}") // {} is placeholder and we put expressions inside it
 
     var result1 = x + y
-    result1 +=2
+    result1 += 2
     println("result : $result1")
 
-    result1 -=2
+    result1 -= 2
     println("result : $result1")
 
-    result1 *=2
+    result1 *= 2
     println("result : $result1")
 
-    result1 /=2
+    result1 /= 2
     println("result : $result1")
 
-    result1 %=2
+    result1 %= 2
     println("result : $result1")
     println(" 3+3 * 4= {3+3*4}")
-    x =0
+    x = 0
     println("x = ${x++}")
     println("x= ${++x}")
     println("x = ${x--}")
     println("x= ${--x}")
 
+    // if else statement
+    val myNumber3 = 100
+    if (myNumber3 >= 150) {
+        println("greater than 150")
+    }
+    else if (myNumber3 > 90)
+    {
+        println("Greater than 90")
+    }
+    else
+    {
+        println("Alll conds fail")
+    }
+
+val isPlaying = true
+    val score = 100
+    if(isPlaying && score ==100)
+        println("Next level opened")
+    else
+        println("Still the same level")
+
+val num1 = 5
+    val num2 = 4
+   val text = if(num1>0 || num2<0) {
+        println("The condn is true")
+       "this is text 1"
+    }
+    else {
+       println("The conds is false")
+       "this is text 2"
+   }
+    println("$text")
 }
